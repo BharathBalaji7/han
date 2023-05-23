@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo{
+    width: 300px;
+    float: left;
+    margin-left: -500px;
+}
+
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    
+    margin-left: 100px;
+    color: #fff;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ff7200;
+    font-size: 25px;
+    
+    
+}
+
+nav ul li a:hover{
+    transition: 0.2s ease-in-out;
+    color: beige;
+}
+    
